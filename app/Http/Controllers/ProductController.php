@@ -55,6 +55,7 @@ class ProductController extends Controller
                 }
 
                 $product->update($validated);
+                return response()->json($product);
             });
         } catch (Throwable $e) {
             return response()->json(['message' => 'An error occurred while updating the product sort.'], 500);
@@ -64,6 +65,6 @@ class ProductController extends Controller
     public function destroy($id)
     {
         Product::destroy($id);
-        return response()->json(null, 204);
+        return response()->json(['message' => 'Product deleted.'], 204);
     }
 }
