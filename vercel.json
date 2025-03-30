@@ -10,6 +10,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://lfopos-api.vercel.app",
+        "DB_CONNECTION": "mysql",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
