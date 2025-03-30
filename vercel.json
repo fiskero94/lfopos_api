@@ -8,6 +8,6 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://lfopos-api.vercel.app",
+        "APP_URL": "https://lfopos-api.vercel.app"
     }
 }
